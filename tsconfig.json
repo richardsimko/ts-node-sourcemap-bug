@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "outDir": "./build",
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "sourceMap": true
+  },
+  "ts-node": {
+    "files": true,
+    "swc": true
+  },
+  "include": ["**/*.ts"]
+}
